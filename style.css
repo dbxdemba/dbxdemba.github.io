@@ -119,6 +119,7 @@ p{
     opacity: 0;
 }
 .bar_container a:hover{
+    cursor:pointer;
     color:hsl(245, 80%, 70%) ;
     transform: scale(1);
     transition: all .2s ease-out .1s;
@@ -130,11 +131,11 @@ p{
     transition: all .3s ease-out .1s;
 }
 .container:hover{
-    cursor: pointer;
     transform: scaleX(1);
     transition: transform 0.25s ease;
 }
 .btn:hover{
+    cursor:pointer;
     transform: scale(1);
     transition: all 0.25s ease;
     background-color:hsl(245, 80%, 70%);
